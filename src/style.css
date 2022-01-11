@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Biryani:wght@200;300;400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Biryani', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: #D9DBE9;
+}
+
+.main_div {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #585858;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.input_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input_text {
+    width: 220px;
+    height: 35px;
+    line-height: 40px;
+    padding-left: 10px;
+    color: #585858;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    background: #002B40;
+}
+
+.add {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #fff;
+    margin-left: -25px;
+    cursor: pointer;
+}
+
+.add_items {
+    background: #002B40;
+    color: #fff;
+    width: 220px;
+    height: 35px;
+    line-height: 35px;
+    margin-top: 25px;
+    padding-left: 10px;
+    border-radius: 5px 0 0 5px;
+    margin-left: 10px;
+    
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.delete {
+    color: #fff;
+    margin-left: 190px;
+    position: absolute;
+    margin-top: -27px !important;
+    cursor: pointer;
+}
+
+.Items_btn {
+    background: #002B40;
+    color: #fff;
+    border: none;
+    margin-top: 15px;
+    padding: 5px 15px;
+}
